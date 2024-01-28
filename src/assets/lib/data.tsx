@@ -5,13 +5,13 @@ import cssicon from "../../assets/icons/cssicon.svg";
 import javascripticon from "../../assets/icons/javascripticon.svg";
 import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
+import ingram from "../../assets/img/ingram.png";
+import dealsy from "../../assets/img/dealsy.png";
+import feis from "../../assets/img/feis-link.png";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import muiicon from "../../assets/icons/muiicon.svg";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/me.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -58,7 +58,7 @@ export const projectsData = [
       { name: "CSS", icon: cssicon },
       { name: "Material UI", icon: muiicon },
     ],
-    image: tastyMockup,
+    image: ingram,
     deploymenturl: "https://www.ingrammicro.com/",
     deploymenticon: FiLink,
     colors: {
@@ -84,7 +84,7 @@ export const projectsData = [
       { name: "CSS", icon: cssicon },
       { name: "Material UI", icon: muiicon },
     ],
-    image: silentmoonMockup,
+    image: dealsy,
     deploymenturl: "https://dealsy.ca/",
     deploymenticon: FiLink,
     colors: {
@@ -134,7 +134,7 @@ export const projectsData = [
       { name: "CSS", icon: cssicon },
       { name: "Material UI", icon: muiicon },
     ],
-    image: instorMockup,
+    image: feis,
     deploymenturl: "",
     deploymenticon: FiLink,
     colors: {
