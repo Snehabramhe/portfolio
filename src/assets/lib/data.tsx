@@ -226,7 +226,7 @@ export const FooterLinks = [
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
+  link: "mailto:snehabramhe03@gmail.com",
   text: "snehabramhe03@gmail.com",
 } as const;
 
@@ -242,7 +242,7 @@ export const sideBarLeftSocials = [
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "mailto:snehabramhe03@gmail.com",
     icon: FiMail,
     altimgname: "mail",
   },
