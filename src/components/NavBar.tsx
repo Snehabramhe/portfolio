@@ -90,7 +90,7 @@ const NavBar: React.FC = () => {
         >
           {navLinks.map((link, index) => (
             <CustomNavLink key={index} link={link.hash} linkEn={link.text}>
-              {link === activeSection ? (
+              {link.text === activeSection ? (
                 <div>
                   <span className="text-[--orange] absolute -left-5 top-0">
                     &lt;
