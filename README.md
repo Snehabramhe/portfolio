@@ -4,7 +4,7 @@ This is a portfolio website built using React, Tailwind CSS, and TypeScript. The
 
 ## Demo
 
-You can also check out the live demo of the portfolio website [here](https://snehab.netlify.app).
+You can also check out the live demo of the portfolio website [here](https://snehabramhe.netlify.app).
 
 ## Features
 
