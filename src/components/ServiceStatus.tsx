@@ -6,15 +6,6 @@ const ServiceStatus: React.FC = () => {
   const [status, setStatus] = useState("");
   const apiServiceStatusURL = import.meta.env.VITE_API_SERVICESTATUS_URL || "";
 
-  const statusColor = () => {
-    if (status === "operational") {
-      return "!text-green-500";
-    } else if (status === "downtime") {
-      return "!text-yellow-500";
-    } else if (status === "degraded") {
-      return "!text-red-500";
-    }
-  };
   const iconColor = () => {
     if (status === "operational") {
       return "bg-green-500";
