@@ -31,10 +31,10 @@ const Contact: React.FC = () => {
     try {
       emailjs
         .sendForm(
-          "service_hl95h5x",
-          "template_cv0vnaq",
+          "service_vfvaydo",
+          "template_lmpz009",
           e.currentTarget,
-          "wQHtJBvc36kFAudMa"
+          "5sA71Sok179SXMxG0"
         )
         .then(
           (res) => console.log(res, "res"),
@@ -43,6 +43,7 @@ const Contact: React.FC = () => {
       toast.success(toastMessages.successEmailSent, {
         position: toast.POSITION.TOP_RIGHT,
       });
+      resetForm();
     } catch (error) {
       toast.error(toastMessages.failedEmailSent, {
         position: toast.POSITION.TOP_RIGHT,
@@ -71,6 +72,13 @@ const Contact: React.FC = () => {
       setMessage(value);
     }
   };
+
+  const resetForm = () => {
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  } 
 
   return (
     <React.Fragment>
@@ -144,6 +152,7 @@ const Contact: React.FC = () => {
               rows={contactData.textarea.rows}
               placeholder={contactData.textarea.placeholder}
               name={contactData.textarea.name}
+              value={message}
               onFocus={() => {
                 handleInputFocus(contactData.textarea.name);
               }}
